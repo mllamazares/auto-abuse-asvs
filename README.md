@@ -1,4 +1,11 @@
 # auto-abuse-asvs
+
+![](https://img.shields.io/badge/lisense-MIT-green)
+[![](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mllamazares/)
+[![Watch on GitHub](https://img.shields.io/github/watchers/mllamazares/auto-abuse-asvs.svg?style=social)](https://github.com/mllamazares/auto-abuse-asvs/watchers)
+[![Star on GitHub](https://img.shields.io/github/stars/mllamazares/auto-abuse-asvs.svg?style=social)](https://github.com/mllamazares/auto-abuse-asvs/stargazers)
+[![Tweet](https://img.shields.io/twitter/url/https/github.com/mllamazares/STRIDE-vs-ASVS.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20auto-abuse-asvs%21%20https%3A%2F%2Fgithub.com%2Fmllamazares%2Fauto-abuse-asvs)
+
 Automatically select the top [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard) security controls for a given Abuse Case using NLP.
 
 Check the Jupyter Notebook here: **[👉 auto_abuse_asvs_poc.ipynb 👈](./nlp_auto_asvs_poc.ipynb)**
