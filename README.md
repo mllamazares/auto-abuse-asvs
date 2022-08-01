@@ -8,7 +8,7 @@
 
 Automatically select the top [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard) security controls for a given Abuse Case using [Natural Language Processing (NLP)](https://en.wikipedia.org/wiki/Natural_language_processing).
 
-Check the Jupyter Notebook PoC here: **[👉 auto_abuse_asvs_poc.ipynb 👈](./nlp_auto_asvs_poc.ipynb)**
+Check the Jupyter Notebook PoC here: **[👉 auto_abuse_asvs_poc.ipynb 👈](./auto_abuse_asvs_poc.ipynb)**
 
 ## Rationale 
 
@@ -16,7 +16,7 @@ In order to build a secure application, from a pragmatic point of view, it is im
 
 A common practice in Security Requirement Engineering is to define *Abuse Cases*, that is, a way to use a feature that was not expected by the implementer, allowing an attacker to influence the feature or outcome of the use of the feature based on the attacker action (or input).
 
-Once we've defined a list of *Abuse Cases* using the business requirements as a reference, is time to mitigate those risks by designing the corresponding countermeasures. [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard) provides an excellent blueprint to select security controls. It is organized in the following chapters:
+Once we've defined a list of *Abuse Cases* using the business requirements as a reference, is time to mitigate those risks by designing the corresponding countermeasures. [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard) provides an excellent blueprint of security controls organized in the following chapters:
 
 * V1 - Architecture, Design and Threat Modeling
 * V2 - Authentication
