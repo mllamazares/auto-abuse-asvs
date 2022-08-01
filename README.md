@@ -6,18 +6,17 @@
 [![Star on GitHub](https://img.shields.io/github/stars/mllamazares/auto-abuse-asvs.svg?style=social)](https://github.com/mllamazares/auto-abuse-asvs/stargazers)
 [![Tweet](https://img.shields.io/twitter/url/https/github.com/mllamazares/STRIDE-vs-ASVS.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20auto-abuse-asvs%21%20https%3A%2F%2Fgithub.com%2Fmllamazares%2Fauto-abuse-asvs)
 
-Automatically select the top [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard) security controls for a given Abuse Case using NLP.
+Automatically select the top [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard) security controls for a given Abuse Case using [Natural Language Processing (NLP)](https://en.wikipedia.org/wiki/Natural_language_processing).
 
-Check the Jupyter Notebook here: **[👉 auto_abuse_asvs_poc.ipynb 👈](./nlp_auto_asvs_poc.ipynb)**
+Check the Jupyter Notebook PoC here: **[👉 auto_abuse_asvs_poc.ipynb 👈](./nlp_auto_asvs_poc.ipynb)**
 
 ## Rationale 
 
-In order to build a secure application, from a pragmatic point of view, it is important to identify the attacks which the application must defend against, according to its business and technical context. [^1]
+In order to build a secure application, from a pragmatic point of view, it is important to identify the attacks that the application must defend against, according to its business and technical context. [^1]
 
-A common practice in Security Requirement Engineering is to define *Abuse Cases*, that is, a way to use a feature that was not expected by the implementer, allowing an attacker to influence the feature or outcome of use of
-the feature based on the attacker action (or input).
+A common practice in Security Requirement Engineering is to define *Abuse Cases*, that is, a way to use a feature that was not expected by the implementer, allowing an attacker to influence the feature or outcome of the use of the feature based on the attacker action (or input).
 
-Once we've defined a list of Abuse Cases using the Business Requirements as reference, is time to mitigate those risks by design the corresponding contermeasures. [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard) provides an excellent blueprint to select security controls. It is organized in the following sections:
+Once we've defined a list of *Abuse Cases* using the business requirements as a reference, is time to mitigate those risks by designing the corresponding countermeasures. [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard) provides an excellent blueprint to select security controls. It is organized in the following chapters:
 
 * V1 - Architecture, Design and Threat Modeling
 * V2 - Authentication
