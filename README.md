@@ -1,3 +1,7 @@
+_**Disclaimer: this was created in the pre-GPT era.**_ :)
+
+---
+
 # auto-abuse-asvs
 
 ![](https://img.shields.io/badge/lisense-MIT-green)
