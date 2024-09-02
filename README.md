@@ -6,7 +6,7 @@
 [![Star on GitHub](https://img.shields.io/github/stars/mllamazares/auto-abuse-asvs.svg?style=social)](https://github.com/mllamazares/auto-abuse-asvs/stargazers)
 [![Tweet](https://img.shields.io/twitter/url/https/github.com/mllamazares/STRIDE-vs-ASVS.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20auto-abuse-asvs%21%20https%3A%2F%2Fgithub.com%2Fmllamazares%2Fauto-abuse-asvs)
 
-This project automatically selects the top [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard) security controls for a given Abuse Case using [Natural Language Processing (NLP)](https://en.wikipedia.org/wiki/Natural_language_processing).
+_Automagically_ selecting the top [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard) security controls for a given Abuse Case leveraging [Natural Language Processing (NLP)](https://en.wikipedia.org/wiki/Natural_language_processing).
 
 Check out the Jupyter Notebook proof of concept here: [auto_abuse_asvs_poc.ipynb](./auto_abuse_asvs_poc.ipynb)
 
